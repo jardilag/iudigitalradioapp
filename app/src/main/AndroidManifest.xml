@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
+    <!-- Permiso de red del reproductor asignado al rol simulado de Jorge Echavarría. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- La aplicación puede instalarse aunque el dispositivo no tenga cámara. -->
     <uses-feature
         android:name="android.hardware.camera.any"
