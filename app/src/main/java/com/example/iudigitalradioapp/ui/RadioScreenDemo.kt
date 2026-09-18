@@ -10,8 +10,8 @@ import androidx.compose.runtime.setValue
  * Rol responsable en la simulación: Juan Pablo Gonzalez.
  *
  * Mantiene estado únicamente para demostrar y revisar la interfaz. Esta
- * función no reproduce audio, no abre la cámara y no activa vibración. Juan
- * Ardila conectará esos efectos posteriormente desde RadioRoute.
+ * función no reproduce audio, no abre la cámara y no activa vibración. El
+ * producto final conecta esos efectos desde [RadioRoute].
  */
 @Composable
 fun RadioScreenDemo() {

@@ -1,4 +1,4 @@
-package com.example.iudigitalradioapp.audio
+package com.example.iudigitalradioapp.ui
 
 import android.content.pm.PackageManager
 import android.widget.Toast
@@ -11,22 +11,21 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
+import com.example.iudigitalradioapp.audio.AudioActionHandler
+import com.example.iudigitalradioapp.audio.Media3RadioPlayer
 import com.example.iudigitalradioapp.hardware.CameraPermission
 import com.example.iudigitalradioapp.hardware.DeviceVibrator
-import com.example.iudigitalradioapp.ui.RadioAction
-import com.example.iudigitalradioapp.ui.RadioReducer
-import com.example.iudigitalradioapp.ui.RadioScreen
-import com.example.iudigitalradioapp.ui.createInitialRadioUiState
 
 /**
- * Rol responsable en la simulación: Jorge Echavarría.
+ * Integración final coordinada por Juan Ardila.
  *
- * Coordinador provisional para probar el audio real de esta rama. Reutiliza
- * el flujo de cámara de Edwin Ruiz para no perder una función ya validada.
- * Juan Ardila consolidará ambos módulos en RadioRoute durante la integración.
+ * Reúne la pantalla declarativa, el estado, la reproducción de audio, la
+ * cámara, los permisos y la vibración sin trasladar esos detalles a
+ * [RadioScreen]. De esta manera la pantalla continúa siendo reutilizable y
+ * fácil de probar.
  */
 @Composable
-fun AudioDemoRoute() {
+fun RadioRoute() {
     val context = LocalContext.current
     val deviceVibrator = remember(context) {
         DeviceVibrator(context)

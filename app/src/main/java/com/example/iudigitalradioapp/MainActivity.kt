@@ -4,15 +4,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.example.iudigitalradioapp.audio.AudioDemoRoute
+import com.example.iudigitalradioapp.ui.RadioRoute
 import com.example.iudigitalradioapp.ui.theme.IudigitalradioappTheme
 
 /**
  * Punto de entrada de la aplicación.
  *
- * La conexión temporal con [AudioDemoRoute] permite que Jorge Echavarría
- * pruebe Media3 ExoPlayer sin perder la cámara ya integrada por Edwin Ruiz.
- * Juan Ardila reemplazará esta conexión por RadioRoute al integrar el producto.
+ * [RadioRoute] conecta la interfaz, el estado, las emisoras, Media3 ExoPlayer,
+ * la cámara, los permisos y la vibración en el producto final.
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +19,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             IudigitalradioappTheme {
-                AudioDemoRoute()
+                RadioRoute()
             }
         }
     }
