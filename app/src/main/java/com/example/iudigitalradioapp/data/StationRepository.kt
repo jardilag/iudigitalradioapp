@@ -6,8 +6,8 @@ import com.example.iudigitalradioapp.model.Station
  * Rol responsable en la simulación: Luisa Gomez.
  *
  * Mantiene una única colección inicial de emisoras para evitar que cada
- * pantalla defina su propia lista. Las URL se completarán con fuentes HTTPS
- * verificadas durante la integración del reproductor.
+ * pantalla defina su propia lista. Jorge Echavarría completó [Station.streamUrl]
+ * con fuentes HTTPS oficiales durante la integración del reproductor.
  */
 object StationRepository {
 
@@ -16,31 +16,31 @@ object StationRepository {
             id = "wkdu",
             name = "WKDU Philadelphia 91.7 FM",
             description = "Radio universitaria - Drexel University",
-            streamUrl = ""
+            streamUrl = "https://streams.wkdu.org/listen.mp3"
         ),
         Station(
             id = "kexp",
             name = "KEXP",
             description = "Música alternativa e independiente",
-            streamUrl = ""
+            streamUrl = "https://kexp.streamguys1.com/kexp160.aac"
         ),
         Station(
             id = "nucrooze",
             name = "NUCROOZE Radio",
             description = "Jazz, soul y funk",
-            streamUrl = ""
+            streamUrl = "https://stream.nucrooze.com/listen/nucrooze/radio.mp3"
         ),
         Station(
             id = "groove-salad",
             name = "Groove Salad",
             description = "Ambient y downtempo",
-            streamUrl = ""
+            streamUrl = "https://ice5.somafm.com/groovesalad-128-mp3"
         ),
         Station(
             id = "indie-pop",
             name = "Indie Pop Rocks!",
             description = "Indie y pop alternativo",
-            streamUrl = ""
+            streamUrl = "https://ice5.somafm.com/indiepop-128-mp3"
         )
     )
 }

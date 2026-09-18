@@ -20,4 +20,14 @@ class DeviceVibrator(context: Context) {
             VibrationEffect.createPredefined(VibrationEffect.EFFECT_DOUBLE_CLICK)
         )
     }
+
+    /**
+     * Integración compartida con el módulo de Jorge Echavarría.
+     * Confirma la pulsación de Play, Pause o Mute con un clic háptico corto.
+     */
+    fun confirmPlaybackControlPressed() {
+        vibrator?.vibrate(
+            VibrationEffect.createPredefined(VibrationEffect.EFFECT_CLICK)
+        )
+    }
 }
