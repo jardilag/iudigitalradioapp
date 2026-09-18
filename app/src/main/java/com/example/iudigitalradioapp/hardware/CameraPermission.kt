@@ -9,7 +9,7 @@ import androidx.core.content.ContextCompat
  * Rol responsable en la simulación: Edwin Ruiz.
  *
  * Centraliza el nombre y la consulta del permiso de cámara. La solicitud se
- * realiza desde [HardwareDemoRoute] porque necesita un lanzador de actividad.
+ * realiza desde la ruta de integración porque necesita un lanzador de actividad.
  */
 object CameraPermission {
 
