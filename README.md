@@ -17,7 +17,7 @@ Ramas por funcionalidad y Pull Requests.
 | --- | --- | --- | --- |
 | Juan Ardila | Líder técnico, arquitectura e integración | `main` y ramas `chore/...` | Yeison Padron |
 | Juan Pablo Gonzalez | Diseño UI y componentes Compose | `feature/ui-compose` | Juan Ardila |
-| Luisa Quiroz | Estado, emisoras y lista dinámica | `feature/stations` | Juan Pablo Gonzalez |
-| Edwin Ruiz | Cámara, permisos y vibración | `feature/hardware` | Luisa Quiroz |
+| Luisa Gomez | Estado, emisoras y lista dinámica | `feature/stations` | Juan Pablo Gonzalez |
+| Edwin Ruiz | Cámara, permisos y vibración | `feature/hardware` | Luisa Gomez |
 | Jorge Echavarría | Reproductor Media3 ExoPlayer | `feature/audioPlayer` | Juan Ardila |
 | Yeison Padron | Pruebas, documentación y evidencias | `feature/test` y `docs` | Edwin Ruiz |
