@@ -1,0 +1,171 @@
+{
+  "input": "C:\\Users\\Juan\\AndroidStudioProjects\\iudigitalradioapp\\output\\docx\\Guia_Juan_Pablo_Gonzalez_feature_ui_compose.docx",
+  "fonts_by_char_count": {
+    "Consolas": 23427,
+    "Aptos": 13775
+  },
+  "direct_run_formatting_runs": 939,
+  "direct_paragraph_formatting_paragraphs": 152,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 3,
+      "text": "IU Digital Radio",
+      "style": "Normal"
+    },
+    {
+      "para_index": 39,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/MainActivity.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 47,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/RadioScreenDemo.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 55,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/RadioScreen.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 80,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/components/PhotoPanel.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 87,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/theme/Color.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 94,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/theme/Theme.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 101,
+      "text": "Ruta app/src/main/java/com/example/iudigitalradioapp/ui/theme/Type.kt",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 184,
+      "text": "Dato",
+      "style": "Normal"
+    },
+    {
+      "para_index": 185,
+      "text": "Asignaci\u00f3n",
+      "style": "Normal"
+    },
+    {
+      "para_index": 200,
+      "text": "Corresponde a Juan Pablo",
+      "style": "Normal"
+    },
+    {
+      "para_index": 201,
+      "text": "Corresponde a otros m\u00f3dulos",
+      "style": "Normal"
+    },
+    {
+      "para_index": 212,
+      "text": "Paquete",
+      "style": "Normal"
+    },
+    {
+      "para_index": 213,
+      "text": "Contenido",
+      "style": "Normal"
+    },
+    {
+      "para_index": 220,
+      "text": "Archivo",
+      "style": "Normal"
+    },
+    {
+      "para_index": 221,
+      "text": "Tipo de cambio",
+      "style": "Normal"
+    },
+    {
+      "para_index": 222,
+      "text": "Finalidad",
+      "style": "Normal"
+    },
+    {
+      "para_index": 253,
+      "text": "N\u00famero",
+      "style": "Normal"
+    },
+    {
+      "para_index": 254,
+      "text": "Captura",
+      "style": "Normal"
+    },
+    {
+      "para_index": 255,
+      "text": "Qu\u00e9 demuestra",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "text": "Uso de la gu\u00eda Juan Pablo debe ejecutar, revisar y explicar cada paso. La imagen del resultado esperado sirve como refer",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 19,
+        "text": "",
+        "style": "Normal"
+      },
+      {
+        "para_index": 20,
+        "text": "L\u00edmite t\u00e9cnico Los componentes de Juan Pablo emiten acciones. No solicitan permisos, no abren la c\u00e1mara y no reproducen ",
+        "style": "Body Text"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 3,
+        "run_text": "IU Digital Radio",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "run_text": "Procedimiento de desarrollo verificaci\u00f3n publicaci\u00f3n e integraci\u00f3n",
+        "style": "Normal"
+      },
+      {
+        "para_index": 7,
+        "run_text": "Uso de la gu\u00eda ",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 7,
+        "run_text": "Juan Pablo debe ejecutar, revisar y explicar cada paso. La imagen del resultado ",
+        "style": "Body Text"
+      },
+      {
+        "para_index": 10,
+        "run_text": "Juan Pablo construye la interfaz principal de IU Digital Radio con Jetpack Compo",
+        "style": "Body Text"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}
